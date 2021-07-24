@@ -64,7 +64,7 @@ function togglePlayer(){
 function checkGame() {
     if(checkWinnerFor('x')) {
         warning= 'O "x" venceu!';
-        playing: false;
+        playing = false;
     } else if (checkWinnerFor('o')) {
         warning= 'O "o" venceu!';
         playing= false;
