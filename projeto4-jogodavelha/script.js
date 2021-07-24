@@ -69,7 +69,7 @@ function checkGame() {
         warning= 'O "o" venceu!';
         playing= false;
     } else if(isFull()) {
-        warning= 'Deu empate';
+        warning= 'Deu empate!';
         playing = false;
     }
 }
